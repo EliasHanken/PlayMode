@@ -1,0 +1,9 @@
+name: FollowingPets
+version: 1.0
+author: Streafe
+main: me.streafe.FollowingPets.FollowingPets
+
+commands:
+  pet:
+    description:  followingpetspl
+    usage:  /pet
