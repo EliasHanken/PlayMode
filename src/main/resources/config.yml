@@ -1,0 +1,10 @@
+Groups:
+  member:
+    permissions:
+      - playmode.play
+  moderator:
+    permissions:
+      - playmode.play
+  admin:
+    permissions:
+      - playmod.play

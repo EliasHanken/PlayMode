@@ -1,4 +1,4 @@
-package me.streafe.FollowingPets.Pets;
+package me.streafe.PlayMode.Pets;
 
 import net.minecraft.server.v1_8_R3.*;
 import org.bukkit.Bukkit;
@@ -26,6 +26,7 @@ public class PetMaker {
 
             targetSelector = EntityInsentient.class.getDeclaredField("targetSelector");
             targetSelector.setAccessible(true);
+
         }catch(Exception e){
             e.printStackTrace();
         }

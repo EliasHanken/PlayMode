@@ -1,15 +1,12 @@
-package me.streafe.FollowingPets.Pets;
+package me.streafe.PlayMode.Pets;
 
 import net.minecraft.server.v1_8_R3.PacketPlayOutNamedEntitySpawn;
 import org.bukkit.Bukkit;
-import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.craftbukkit.v1_8_R3.entity.CraftPlayer;
-import org.bukkit.entity.EntityType;
 import org.bukkit.entity.Player;
-import org.bukkit.entity.Skeleton;
 
 import java.lang.reflect.Field;
 
@@ -41,6 +38,8 @@ public class PetCommand implements CommandExecutor {
 
                     field.setInt(npc, 123);
                     field.setAccessible(!field.isAccessible());
+
+
 
                 }catch(Exception e){
                     e.printStackTrace();

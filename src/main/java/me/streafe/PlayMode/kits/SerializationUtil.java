@@ -1,4 +1,4 @@
-package me.streafe.FollowingPets.kits;
+package me.streafe.PlayMode.kits;
 
 import org.bukkit.inventory.Inventory;
 

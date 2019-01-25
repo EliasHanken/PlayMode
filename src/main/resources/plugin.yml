@@ -1,9 +1,12 @@
-name: FollowingPets
+name: PlayMode
 version: 1.0
 author: Streafe
-main: me.streafe.FollowingPets.FollowingPets
+main: me.streafe.PlayMode.PlayMode
 
 commands:
   pet:
     description:  followingpetspl
     usage:  /pet
+  playmode:
+    description: playmode
+    usage: /playmode
